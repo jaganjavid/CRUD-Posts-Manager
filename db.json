@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "d1f1",
+      "title": "Post One",
+      "content": "This is a sample post one"
+    },
+    {
+      "id": "d1f2",
+      "title": "Post Two",
+      "content": "This is a sample post two"
+    },
+    {
+      "id": "d1f3",
+      "title": "Post Three",
+      "content": "This is a sample post three"
+    }
+  ]
+}
