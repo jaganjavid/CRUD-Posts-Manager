@@ -56,7 +56,7 @@ const App = () => {
     axios
       .put(`http://localhost:3001/posts/${currentPostId}`, newPost)
       .then((response) => {
-        setPosts(posts.map((post) => (post.id === currentPostId ? response.data : null)));
+        setPosts(posts.map((post) => (post.id === currentPostId ? response.data : post)));
         setNewPost({ title: "", content: "" }); // Clear form after updating
         setIsUpdating(false);
         setCurrentPostId(null);
